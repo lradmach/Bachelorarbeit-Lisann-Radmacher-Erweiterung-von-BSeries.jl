@@ -13,4 +13,18 @@ The implementation for checking the symplecticity of a method can be found in th
 In this file you'll find the implementation of the symplecticity condition, the function which checks the condition for a pair of trees and the function returning up to what order a method is symplectic.
 
 The implementation for two derivative Runge-Kutta methods can be found in the file "TDRK.ipynb" (or "TDRK.jl").
-In this file you'll find the implementation of TDRK methods as a new time integration method, the elementary weight of a TDRK method as well the B-series of TDRK method.
+In this file you'll find the implementation of TDRK methods as a new time integration method, the elementary weight of a TDRK method as well the B-series of TDRK method. In addition, there is a bigger example discussed in these files. You can find it in my thesis in the part "Anwendungsbeispiel". The two plots that were made are included in the thesis. You can also see them in the notebook file "TDRKBA.ipynb". 
+There is also the option to produce the plots from the shell:
+1) Open the "TDRKBA.jl" file
+2) include the code
+```julia
+    include("TDRKBA.jl")
+```
+3) run the function "plot_firstode()" to produce the plot for the first ODE
+```julia
+    plot_firstode()
+```
+4) run the function "plot_secondode()" to produce the plot for the second ODE
+```julia
+    plot_secondode()
+```
