@@ -1,0 +1,8 @@
+import Pkg; Pkg.activate(".")
+Pkg.add("BSeries")
+Pkg.add("LinearAlgebra")
+Pkg.add("RootedTrees")
+Pkg.add("OrdinaryDiffEq")
+Pkg.add("NLsolve")
+Pkg.add("Plots")
+Pkg.add("LaTeXStrings")
