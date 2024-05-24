@@ -28,3 +28,6 @@ There is also the option to produce the plots from the shell:
 ```julia
     plot_secondode()
 ```
+
+
+The code is procuded with the Julia version 1.9.3.
