@@ -1,7 +1,7 @@
 # Bachelorarbeit-Lisann-Radmacher
 
 This Repository is the work that was made during my bachelor thesis. It is an expansion of the "BSeries.jl" package.
-There are three topics that were implemented during the last weeks. These topics are symmetry and symplecticity of methods as well as two derivative Runge-Kutta methods.
+There are three topics that were implemented during the last weeks. These topics are symmetry and symplecticity of methods as well as two-derivative Runge-Kutta methods.
 
 The folder "Notebooks" contains three notebooks, one notebook for each topic.
 The folder "Julia Code" contains Julia files, one file for each topic.
