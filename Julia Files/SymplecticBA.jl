@@ -21,7 +21,6 @@ import Pkg; Pkg.activate(dirname(@__DIR__)); Pkg.instantiate()
 
 using BSeries
 using RootedTrees
-using Latexify
 
 # ## The Interesting Part
 # Now I can start to define the functions needed for checking the symplecticity of a method.
