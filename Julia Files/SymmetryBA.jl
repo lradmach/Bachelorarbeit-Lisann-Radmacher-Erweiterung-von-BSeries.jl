@@ -16,7 +16,7 @@
 
 # First, I need to import the packages that will be used in the following code.
 
-import Pkg; Pkg.activate(@__DIR__); Pkg.instantiate()
+import Pkg; Pkg.activate(dirname(@__DIR__)); Pkg.instantiate()
 
 using BSeries
 using RootedTrees
